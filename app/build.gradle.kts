@@ -73,6 +73,7 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.50")
     kapt("com.google.dagger:hilt-android-compiler:2.50")
 
+
     val lifecycle_version = "2.7.0"
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
@@ -96,6 +97,3 @@ dependencies {
 
 }
 
-kapt {
-    correctErrorTypes = true
-}

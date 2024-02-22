@@ -11,6 +11,5 @@ interface ArtistHitsApi{
     suspend fun getHits(@Header("X-JSON-Path") singer : String) : Response<List<AlbumsListItem>>
 
     @GET("/v3/b/65d4c84a266cfc3fde8cdd32?meta=false")
-    @Headers("X-JSON-Path")
     suspend fun getSingers() : Response<List<String>>
 }

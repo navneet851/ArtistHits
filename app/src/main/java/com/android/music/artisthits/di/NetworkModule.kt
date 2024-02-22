@@ -15,7 +15,7 @@ import javax.inject.Singleton
 class NetworkModule{
 
 
-    //retrofit object in hilt
+    //retrofit object
     @Singleton
     @Provides
     fun retrofitObjectProvider() : Retrofit{
